@@ -1,0 +1,12 @@
+GRACE: Gravity Recovery and Climate Experiment: Surface mass, total water storage, and derived variables
+    > Years of Record (YOR): 2002-01 to 2012-09
+    > GRACE is sensitive to *all* mass changes, and thus measures the vertically integrated change in mass. 
+    To use GRACE to constrain a subset of the vertical mass budget, e.g. snow or groundwater, one must use 
+    independent data to remove the other components of the mass budget.  Filtering the data is an important 
+    step in reducing measurement error, but it comes at the expense of signal modification.  Performing 
+    simulations in which the data processing methods are applied to synthetic datasets provides valuable 
+    information on the effects of filtering and regularization.
+
+Global Gravity-based Groundwater Product (G3P) via GFZ Data Services
+    > Güntner, Andreas; Sharifi, Ehsan; Haas, Julian; Boergens, Eva; Dahle, Christoph; Dobslaw, Henryk; Dorigo, Wouter; Dussailant, Inés; Flechtner, Frank; Jäggi, Adrian; Kosmale, Miriam; Luojus, Kari; Mayer-Gürr, Torsten; Meyer, Ulrich; Preimesberger, Wolfgang; Ruz Vargas, Claudia; Zemp, Michael (2024): Global Gravity-based Groundwater Product (G3P). V. 1.12. GFZ Data Services. https://doi.org/10.5880/g3p.2024.001
+    > G3P_v1.12/GWSA/gwsa_g3p_200204_202309_monthly_05_degree_250km_gauss_filtered_gravis.nc

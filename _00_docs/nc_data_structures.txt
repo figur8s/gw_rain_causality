@@ -1,0 +1,134 @@
+---------------------------------------------
+chirps_monthly_data\chirps-v3.0.2002.monthly.nc
+---------------------------------------------
+
+c:\Users\Kelsey\Documents\GitHub\gw_rain_causality\_00_data_download\chirps_monthly_data\chirps-v3.0.2002.monthly.nc
+<xarray.Dataset> Size: 829MB
+Dimensions:    (latitude: 2400, longitude: 7200, time: 12)
+Coordinates:
+  * latitude   (latitude) float32 10kB -59.97 -59.92 -59.88 ... 59.92 59.97
+  * longitude  (longitude) float32 29kB -180.0 -179.9 -179.9 ... 179.9 180.0
+  * time       (time) datetime64[ns] 96B 2002-01-01 2002-02-01 ... 2002-12-01
+Data variables:
+    precip     (time, latitude, longitude) float32 829MB ...
+Attributes: (12/15)
+    Conventions:       CF-1.6
+    title:             CHIRPS Version 3.0
+    history:           created by Climate Hazards Center
+    version:           Version 3.0
+    data_created:      2025-02-25
+    creator_name:      Pete Peterson
+    ...                ...
+    reference:         Funk, C.C., Peterson, P.J., Landsfeld, M.F., Pedreros,...
+    comments:           time variable denotes the first day of the given month. 
+    acknowledgements:  The Climate Hazards Center InfraRed Precipitation with...
+    ftp_url:           ftp://chg-ftpout.geog.ucsb.edu/pub/chg/products/CHIRPS...
+    website:           http://chg.geog.ucsb.edu/data/chirps/index.html
+    faq:               http://chg-wiki.geog.ucsb.edu/wiki/CHIRPS_FAQ
+
+---------------------------------------------
+gldas_data\GLDAS_NOAH025_M.A200204.021.nc4
+---------------------------------------------
+
+c:\Users\Kelsey\Documents\GitHub\gw_rain_causality\_00_data_download\gldas_data\GLDAS_NOAH025_M.A200204.021.nc4
+<xarray.Dataset> Size: 124MB
+Dimensions:                (time: 1, bnds: 2, lon: 1440, lat: 600)
+Coordinates:
+  * time                   (time) datetime64[ns] 8B 2002-04-01
+  * lon                    (lon) float32 6kB -179.9 -179.6 ... 179.6 179.9
+  * lat                    (lat) float32 2kB -59.88 -59.62 ... 89.62 89.88
+Dimensions without coordinates: bnds
+Data variables: (12/37)
+    time_bnds              (time, bnds) datetime64[ns] 16B ...
+    Swnet_tavg             (time, lat, lon) float32 3MB ...
+    Lwnet_tavg             (time, lat, lon) float32 3MB ...
+    Qle_tavg               (time, lat, lon) float32 3MB ...
+    Qh_tavg                (time, lat, lon) float32 3MB ...
+    Qg_tavg                (time, lat, lon) float32 3MB ...
+    ...                     ...
+    Rainf_f_tavg           (time, lat, lon) float32 3MB ...
+    Tair_f_inst            (time, lat, lon) float32 3MB ...
+    Qair_f_inst            (time, lat, lon) float32 3MB ...
+    Psurf_f_inst           (time, lat, lon) float32 3MB ...
+    SWdown_f_tavg          (time, lat, lon) float32 3MB ...
+    LWdown_f_tavg          (time, lat, lon) float32 3MB ...
+Attributes: (12/19)
+    CDI:                    Climate Data Interface version 1.9.8 (https://mpi...
+    Conventions:            CF-1.6
+    history:                created on date: 2019-10-30T09:28:01.883
+    source:                 Noah_v3.6 forced with GDAS-AGRMET-GPCPv13rA1
+    institution:            NASA GSFC
+    missing_value:          -9999.0
+    ...                     ...
+    MAP_PROJECTION:         EQUIDISTANT CYLINDRICAL
+    SOUTH_WEST_CORNER_LAT:  -59.875
+    SOUTH_WEST_CORNER_LON:  -179.875
+    DX:                     0.25
+    DY:                     0.25
+    CDO:                    Climate Data Operators version 1.9.8 (https://mpi...
+
+---------------------------------------------
+grace_data\GRD-3_2002095-2002120_GRAC_UTCSR_BA01_0600_LND_v04.nc
+---------------------------------------------
+
+c:\Users\Kelsey\Documents\GitHub\gw_rain_causality\_00_data_download\grace_data\GRD-3_2002095-2002120_GRAC_UTCSR_BA01_0600_LND_v04.nc
+<xarray.Dataset> Size: 1MB
+Dimensions:        (lon: 360, lat: 180, time: 1, bounds: 2)
+Coordinates:
+  * lon            (lon) float64 3kB 0.5 1.5 2.5 3.5 ... 356.5 357.5 358.5 359.5
+  * lat            (lat) float64 1kB -89.5 -88.5 -87.5 -86.5 ... 87.5 88.5 89.5
+  * time           (time) datetime64[ns] 8B 2002-04-18
+Dimensions without coordinates: bounds
+Data variables:
+    lwe_thickness  (time, lat, lon) float64 518kB ...
+    uncertainty    (time, lat, lon) float64 518kB ...
+    lat_bounds     (lat, bounds) float64 3kB ...
+    lon_bounds     (lon, bounds) float64 6kB ...
+    time_bounds    (time, bounds) datetime64[ns] 16B ...
+Attributes: (12/57)
+    Conventions:                CF-1.6
+    standard_name_vocabulary:   NetCDF Climate and Forecast (CF) Metadata Con...
+    title:                      GRACE-FO Water-Equivalent-Thickness Surface-M...
+    id:                         TELND-3NC64
+    summary:                    Gridded surface mass anomalies, derived from ...
+    processing_level:           3
+    ...                         ...
+    geospatial_lat_units:       degrees_north
+    geospatial_lat_resolution:  One degree grid
+    geospatial_lon_min:         0.5
+    geospatial_lon_max:         359.5
+    geospatial_lon_units:       degrees_east
+    geospatial_lon_resolution:  One degree grid
+
+---------------------------------------------
+grace_fo_data\GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0603_LND_v04.nc
+---------------------------------------------
+
+c:\Users\Kelsey\Documents\GitHub\gw_rain_causality\_00_data_download\grace_fo_data\GRD-3_2018152-2018181_GRFO_GFZOP_BA01_0603_LND_v04.nc
+<xarray.Dataset> Size: 1MB
+Dimensions:        (lon: 360, lat: 180, time: 1, bounds: 2)
+Coordinates:
+  * lon            (lon) float64 3kB 0.5 1.5 2.5 3.5 ... 356.5 357.5 358.5 359.5
+  * lat            (lat) float64 1kB -89.5 -88.5 -87.5 -86.5 ... 87.5 88.5 89.5
+  * time           (time) datetime64[ns] 8B 2018-06-16
+Dimensions without coordinates: bounds
+Data variables:
+    lwe_thickness  (time, lat, lon) float64 518kB ...
+    uncertainty    (time, lat, lon) float64 518kB ...
+    lat_bounds     (lat, bounds) float64 3kB ...
+    lon_bounds     (lon, bounds) float64 6kB ...
+    time_bounds    (time, bounds) datetime64[ns] 16B ...
+Attributes: (12/59)
+    Conventions:                CF-1.6
+    standard_name_vocabulary:   NetCDF Climate and Forecast (CF) Metadata Con...
+    title:                      GRACE-FO Water-Equivalent-Thickness Surface-M...
+    id:                         TELND-3NG64
+    summary:                    Gridded surface mass anomalies, derived from ...
+    processing_level:           3
+    ...                         ...
+    geospatial_lat_units:       degrees_north
+    geospatial_lat_resolution:  One degree grid
+    geospatial_lon_min:         0.5
+    geospatial_lon_max:         359.5
+    geospatial_lon_units:       degrees_east
+    geospatial_lon_resolution:  One degree grid
