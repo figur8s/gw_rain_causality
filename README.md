@@ -31,6 +31,42 @@ However, limitations in stable isotope analyses highlight a need for **additiona
 
 ---
 
+## Research Question
+
+| Hypothesis | Statement | Approach |
+|---|---|---|
+| 1 | Increases in subsurface water, at a shallow (below 5 cm) and deep (below 1 m) level, influence increases in rainfall. | Compare prediction with subsurface water vs the rainfall's autoregressive timeseries data. Compare F-stat vs p-value. |
+| 2 | Deep subsurface water increases rainfall at monthly and inter-annual scales. | IRFs |
+| 3 | Deep subsurface water can trigger the onset of the wet season. | IRFs |
+
+**Research question:** Can layers beneath the top 5 cm — including those deeper than 1 m — have predictive power for precipitation variability, wet season onset, and wet season duration across medium and multi-year timescales?
+
+---
+
+## Data
+
+| Source | Scales | Var(s) | Data |
+|---|---|---|---|
+| SMAP | 300 km grid cell, monthly | surface soil moisture (5 cm and above) | surface soil moisture (5 cm and above) |
+| GRACE JPL, SMAP | 300 km grid cell, monthly | tws (total water storage) - surface soil moisture (5 cm and above) | Subsurface water levels (shallow; below 5 cm) |
+| GRACE-constrained GLDAS2.2 | 300 km grid cell, monthly | tws (total water storage) | Subsurface water levels (deep; below 1 m) |
+| - | - | - | - |
+
+Five locations will be examined at 13.5° N latitude, and 2 location in Congo looking at different water basins.
+
+| Country/Area | Latitude Range | Longitude Range | 
+|---|---|---|
+| The Sahel | 13.5° N | 17° W to 35° E |
+| Burkina Faso | 13.5° N  3° W to 1° E |
+| Chad | 13.5° N | 13°40' E to 23° E |
+| Guinea | 13.5° N | 12°W to 13.5°W |
+| Nigeria | 13.5° N | 8° E to 14° E |
+| Mali | 13.5° N | 12°W to 4°E |
+| Congo | - | - |
+| Congo | - | - |
+
+---
+
 ## Methodology: Vector AutoRegression (VAR)
 
 We will use VAR to leverage three complementary tools.
@@ -44,8 +80,6 @@ This provides meaningful evidence of directional predictive influence flowing fr
 ### 2. Impulse Response Functions (IRFs)
 
 A single anomalous pulse is introduced to one variable, and we trace how the disturbance propagates through the system over subsequent months.
-
-**Research question:** Can layers beneath the top 5 cm — including those deeper than 1 m — have predictive power for rainfall and wet season onset?
 
 If the IRF shows an acceleration of rainfall following a change in deep subsurface water, this supports the theory that ET from land triggers the wet season. IRFs will also clarify the **timing and persistence** of the precipitation response at each subsurface layer.
 
